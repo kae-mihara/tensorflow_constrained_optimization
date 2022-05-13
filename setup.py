@@ -41,12 +41,7 @@ else:
 _install_requires = [
     "numpy",
     "scipy",
-    "six",
-    # For TensorFlow 1.14 and 2.0, this dependency isn't quite correct, since
-    # the user might want "tensorflow-gpu" instead of "tensorflow". However, in
-    # TensorFlow 1.15 and later (before 2.0), or 2.1 and later, "tensorflow" and
-    # "tensorflow-gpu" are no longer distinguished.
-    "tensorflow>=1.14",
+    "six"
 ]
 
 _classifiers = [
